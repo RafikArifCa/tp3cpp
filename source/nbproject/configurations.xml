@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Bibliographie.h</itemPath>
+      <itemPath>ContratException.h</itemPath>
+      <itemPath>Journal.h</itemPath>
+      <itemPath>Ouvrage.h</itemPath>
+      <itemPath>Reference.h</itemPath>
+      <itemPath>validationFormat.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Bibliographie.cpp</itemPath>
+      <itemPath>ContratException.cpp</itemPath>
+      <itemPath>Journal.cpp</itemPath>
+      <itemPath>Ouvrage.cpp</itemPath>
+      <itemPath>Reference.cpp</itemPath>
+      <itemPath>validationFormat.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>Makefile</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="Bibliographie.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Bibliographie.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ContratException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ContratException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Journal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Journal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ouvrage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ouvrage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Reference.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Reference.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="validationFormat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="validationFormat.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="Bibliographie.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Bibliographie.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ContratException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ContratException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Journal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Journal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ouvrage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ouvrage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Reference.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Reference.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="validationFormat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="validationFormat.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
